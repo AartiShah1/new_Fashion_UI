@@ -1,0 +1,97 @@
+ 
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+}
+
+main{
+    width: 100%;
+    padding: 20px;
+}
+
+.container{
+    display:flex;
+}
+.sidebar{
+    background: #000;
+    color: #3ae8eb;
+    height: 100vh;
+    width: 200px;
+    transition: all 0.5s;
+}
+.top_section{
+    display: flex;
+    align-items:center;
+    padding:20px 15px;
+}
+.logo{
+    font-size: 30px;
+}
+.bars{
+    display: flex;
+    font-size: 25px;
+    margin-left: 50px;
+}
+.link{
+    display: flex;
+    color: #61e7d8;
+    padding: 10px 15px;
+    gap: 15px;
+    transition: all 0.5s;
+}
+.link:hover{
+    background:lightskyblue;
+    color: #000;
+    transition: all 0.5s;
+}
+.active{
+    background: lightskyblue;
+    color: #b43636;
+}
+.icon, .link_text{
+    font-size: 15px;
+} 
+ 
+
+  
+
+/* App.css (or your preferred CSS file) */
+
+/* .container {
+    display: flex;
+}
+
+.sidebar {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.link_text {
+    margin-left: 10px;
+    display: none;
+}
+
+.link.active .link_text {
+    display: block;
+}
+
+.main {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.lorem {
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+ */

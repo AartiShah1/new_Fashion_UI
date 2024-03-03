@@ -1,0 +1,57 @@
+body {
+  background-color: #d7c1c1;
+  margin: 0; /* Remove default body margin */
+  font-family: 'Arial', sans-serif; /* Add your preferred font-family */
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* Styles for the navbar container */
+.navbar {
+    background-color: #9eedf3; 
+    color: rgb(7, 7, 7); 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px; 
+  }
+  
+  /* Styles for the logo */
+  /* .logo {
+     width:50px;
+     height:50px;
+  } */
+  
+  /* Styles for the navigation menu items */
+  .navitem {
+    list-style: none;
+    display: flex;
+    gap: 20px; 
+  }
+  
+  .navitem a {
+    text-decoration: none;
+    color: rgb(0, 0, 0); 
+    font-weight: bold; 
+    transition: color 0.3s; 
+  }
+  
+  .navitem a:hover {
+    color: #fbff00; 
+  }
+  
+  /* Additional styles for list items */
+  .navitem li {
+    padding: 5px 10px; 
+    border-radius: 5px; 
+    transition: background-color 0.3s; 
+  }
+  
+  .navitem li:hover {
+    background-color: #555; 
+  }
+
+  
