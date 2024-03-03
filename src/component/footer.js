@@ -20,7 +20,6 @@ const Footer = () => {
             {/* Address Information */}
             <div className="address-info">
               <p><FaMapMarkerAlt /> Murli Bagaicha-12, Birgunj , Nepal</p>
-             
             </div>
           </div>
         </div>
@@ -60,38 +59,6 @@ const Footer = () => {
           <h3 className="copyright-text"><h6>Copyright &copy; 2023 Your A.S Fashion Website. All Rights Reserved.</h6></h3>
         </div>
       </div>
-
-      {/* <div style={{ display: 'flex', flexWrap: 'wrap', gap: '20px' }}>
-  
-      <div style={{ width: '22%', border: '1px solid #ddd', borderRadius: '8px', padding: '10px' }}>
-        <img src={cloth} alt="Product 1" style={{ width: '100%', height: '150px', objectFit: 'cover', borderRadius: '8px' }} />
-        <h3>Title 1</h3>
-        <p>Description 1</p>
-      </div>
-
-     
-      <div style={{ width: '22%', border: '1px solid #ddd', borderRadius: '8px', padding: '10px' }}>
-        <img src="image2.jpg" alt="Product 2" style={{ width: '100%', height: '150px', objectFit: 'cover', borderRadius: '8px' }} />
-        <h3>Title 2</h3>
-        <p>Description 2</p>
-      </div>
-
-      
-      <div style={{ width: '22%', border: '1px solid #ddd', borderRadius: '8px', padding: '10px' }}>
-        <img src="image3.jpg" alt="Product 3" style={{ width: '100%', height: '150px', objectFit: 'cover', borderRadius: '8px' }} />
-        <h3>Title 3</h3>
-        <p>Description 3</p>
-      </div>
-
-     
-      <div style={{ width: '22%', border: '1px solid #ddd', borderRadius: '8px', padding: '10px' }}>
-        <img src="image4.jpg" alt="Product 4" style={{ width: '100%', height: '150px', objectFit: 'cover', borderRadius: '8px' }} />
-        <h3>Title 4</h3>
-        <p>Description 4</p>
-      </div>
-    </div> */}
-
-
     </footer>
   );
 };
